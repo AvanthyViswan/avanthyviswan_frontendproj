@@ -1,0 +1,18 @@
+.image-container {
+    position: relative;
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+  }
+  
+  .image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 107%;
+    background-image: url('dabba1.jpg'); /* Change to the path of your original image */
+    background-size: cover; /* or contain, depending on your preference */
+    opacity: 0.5; /* Adjust opacity as needed */
+  }
+  
